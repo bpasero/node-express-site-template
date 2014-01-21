@@ -1,18 +1,17 @@
 {
-  "name": "express-site-template",
-  "version": "0.0.1",
-  "main": "./app/index",
+  "name": "application-name",
+  "version": "2.0.0",
+  "private": true,
   "scripts": {
-    "test": "make test"
+    "start": "node server"
   },
   "dependencies": {
-    "browserify": "~1.16.1",
-    "connect-redis": "~1.4.4",
-    "debug": "~0.7.0",
-    "express": "~3.0.0rc5",
-    "jade": "~0.27.6",
-    "mongodb": "~1.1.10",
-    "redis": "~0.8.1",
-    "stylus": "~0.29.0"
+    "express": "~3.1.0",
+    "jade": "*",
+    "less-middleware": "*",
+    "nconf": "~0.6.7",
+    "socket.io": "~0.9.13",
+    "everyauth": "https://github.com/bnoguchi/everyauth/tarball/express3",
+    "recaptcha": "~1.2.0"
   }
 }
